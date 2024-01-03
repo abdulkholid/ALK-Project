@@ -7,6 +7,7 @@
 
 .play-icon {
   border-width: 15px 0px 15px 25px;
+  border-left-color: #fff;
 }
 
 .prev-icon,
