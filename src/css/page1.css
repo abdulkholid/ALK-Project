@@ -1,0 +1,44 @@
+.triangle {
+  border-style: solid;
+  border-color: transparent #000 transparent #000;
+  display: block;
+  margin-left: 6px;
+}
+
+.play-icon {
+  border-width: 15px 0px 15px 25px;
+}
+
+.prev-icon,
+.next-icon {
+  width: 10px;
+  height: 15px;
+  border-width: 10px 15px 10px 0px;
+  margin-left: 0px;
+  margin-right: 6px;
+  position: relative;
+}
+.prev-icon:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: -8px;
+  width: 10px;
+  height: 17px;
+  border-left: 1px solid #000;
+}
+
+.next-icon {
+  border-width: 10px 0px 10px 15px;
+  margin-right: 0px;
+  margin-left: 6px;
+}
+.next-icon:before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: -8px;
+  width: 10px;
+  height: 17px;
+  border-right: 1px solid #000;
+}
